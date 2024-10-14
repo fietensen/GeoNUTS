@@ -33,4 +33,22 @@
             <url>https://raw.githubusercontent.com/fietensen/GeoNUTS/refs/heads/main/LICENSE</url>
         </license>
     </licenses>
+
+    <repositories>
+        <repository>
+            <id>osgeo</id>
+            <name>Open Source Geospatial Foundation Repository</name>
+            <url>https://repo.osgeo.org/repository/release/</url>
+        </repository>
+    </repositories>
+
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.geotools/gt-geojson-core -->
+        <dependency>
+            <groupId>org.geotools</groupId>
+            <artifactId>gt-geojson-core</artifactId>
+            <version>31.3</version>
+        </dependency>
+    </dependencies>
 </project>
